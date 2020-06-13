@@ -10,7 +10,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">ZooClan</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -52,15 +53,15 @@
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li>-->
     </ul>
-  <div>
-    <button type="button" class="btn btn-primary">Sign In</button>
-    <button type="button" class="btn btn-dark">Sign Up</button>
+    <div>
+      <button type="button" class="btn btn-primary">Sign In</button>
+      <button type="button" class="btn btn-dark">Sign Up</button>
+    </div>
   </div>
 </nav>
     <%= yield %>
     <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
-
         <!-- Search Widget -->
         <div class="card my-4">
           <h5 class="card-header">Search</h5>
@@ -73,7 +74,6 @@
             </div>
           </div>
         </div>
-
         <!-- Categories Widget -->
         <div class="card my-4">
           <h5 class="card-header">Categories</h5>
@@ -108,7 +108,6 @@
             </div>
           </div>
         </div>
-
         <!-- Side Widget -->
         <div class="card my-4">
           <h5 class="card-header">Side Widget</h5>
@@ -116,7 +115,7 @@
             You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
           </div>
         </div>
-
       </div>
+    </div>
   </body>
 </html>
